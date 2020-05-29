@@ -20,13 +20,25 @@ body {
 	padding-right: 1em;
 }
 
+.about-me-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-me-text {
+padding: 6em;
+}
+
 img {
 	max-width: 1.2em;
 }
+
 .content-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1.5em;
 	/* grid-template-rows: 10em; */
 }
+
 
