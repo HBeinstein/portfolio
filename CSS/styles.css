@@ -4,8 +4,10 @@ body {
 }
 
 .landing-container {
-	border: 1px solid blue;
 	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .about{
@@ -24,6 +26,7 @@ img {
 .content-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1.5em;
 	/* grid-template-rows: 10em; */
 }
 
