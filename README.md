@@ -10,9 +10,10 @@ _This is a prototype portfolio website that will later act as the landing page f
 
 ## Setup/Installation Requirements
 
-* 
-* 
-* 
+* Clone the project from its GitHub repository.
+* Open in your code editor of choice.
+* Drag index.html file into your browser or double click it to view site.
+* You can view this project live on GitHub Pages at this link:.
 
 
 ## Known Bugs
@@ -33,6 +34,6 @@ hannah.beinstein@gmail.com
 
 ### License
 
-Liscensed for usage under the MIT liscense.
+Licensed for usage under the MIT license.
 
 Copyright (c) 2020 **_Hannah Beinstein_**
