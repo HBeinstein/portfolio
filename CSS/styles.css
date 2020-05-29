@@ -13,7 +13,7 @@ a:hover {
 	color: #4a41fb;
 }
 
-h1, h2, h3, h4, a, li {
+h1, h2, h3, h4, a, li, strong {
 	font-family: 'chivo', sans-serif;
 }
 
@@ -101,17 +101,17 @@ ul li {
 	max-width: 2.5em;
 }
 
-.content-container {
+.project-content-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2.5em;
 }
 
-.content-container a {
+.project-content-container a {
 	font-weight: normal;
 }
 
-.content-container p h5{
+.project-content-container p h5 {
 	margin: .4em;
 }
 
@@ -119,10 +119,12 @@ ul li {
 	min-width: 10em;
 }
 
-.footer a, .footer {
-	color: #4a41fb;
-}
-
 .nav-header {
 	font-size: 1em;
+}
+
+.footer {
+	border-radius: 5px;
+	border: 2px solid #f4f4f4;
+	padding: .7em 1.4em;
 }
