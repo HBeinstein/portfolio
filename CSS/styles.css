@@ -25,18 +25,23 @@ p {
 	font-family: 'montserrat', sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
-	/* font-family: 'montserrat'; */
 }
 
 .header {
 	padding-top: 1.5em;
-	/* border-bottom: 1px solid #f4f4f4; */
 }
 
-.about{
+.about {
 	float: right;
 	text-decoration: none;
 	font-size: 1.3em;
+	padding: .7em 1.4em;
+	border-radius: 5px;
+	border: 2px solid #f4f4f4;
+}
+
+.about:hover {
+	border-color: #4a41fb;;
 }
 
 .landing-container {
