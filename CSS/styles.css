@@ -1,8 +1,8 @@
 body {
 	background-color: #1c1b25;
 	color: #f4f4f4;
-	margin-left: 4em;
-	margin-right: 4em;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 
 a {
@@ -13,12 +13,14 @@ a:hover {
 	color: #4a41fb;
 }
 
-h1, h2, h3, h4, h5, a, li {
+h1, h2, h3, h4, a, li {
 	font-family: 'chivo', sans-serif;
 }
 
 h5 {
 	font-size: 2em;
+	font-family: 'lora', sans-serif;
+	font-weight: 400;
 }
 
 p {
@@ -59,7 +61,7 @@ ul li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 1px solid #f4f4f4;
+	/* border-bottom: 2px dotted #f4f4f4; */
 }
 
 .welcome-text {
@@ -78,9 +80,8 @@ ul li {
 
 .about-me-container {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* border-bottom: 1px solid #f4f4f4; */
+	/* justify-content: center; */
+	align-items: flex-start;
 }
 
 .about-me-text {
@@ -106,5 +107,13 @@ img {
 
 .content-container a {
 	font-weight: normal;
+}
+
+.content-container p h5{
+	margin: .4em;
+}
+
+.project1 img {
+	min-width: 10em;
 }
 
