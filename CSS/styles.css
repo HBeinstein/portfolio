@@ -1,13 +1,48 @@
 body {
 	background-color: #1c1b25;
-	color: white;
+	color: #f4f4f4;
+	padding-left: 4em;
+	padding-right: 4em;
 }
 
+a {
+	color: #f4f4f4;
+}
+
+h1, h2, h3, h4, p, a {
+	font-family: 'chivo', sans-serif;
+}
+
+h5 {
+	font-family: 'open sans';
+	font-size: 1em;
+	/* font-family: 'montserrat'; */
+}
+
+.header {
+	border-bottom: 1px solid #f4f4f4;
+}
 .landing-container {
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.welcome-text {
+	/* width: 40em; */
+	font-size: 3.5em;
+}
+
+.hi-there {
+	font-size: 3em;
+	margin: 0;
+}
+
+.hi-there-followup {
+	font-size: 1em;
+	margin: 0;
 }
 
 .about{
@@ -15,7 +50,7 @@ body {
 }
 
 .logo {
-	max-width: 1.2em;
+	max-width: 1.8em;
 	float: left;
 	padding-right: 1em;
 }
@@ -24,6 +59,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	/* border-bottom: 1px solid #f4f4f4; */
 }
 
 .about-me-text {
@@ -31,7 +67,7 @@ padding: 6em;
 }
 
 img {
-	max-width: 1.2em;
+	max-width: 2em;
 }
 
 .content-container {
