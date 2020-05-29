@@ -20,8 +20,19 @@ h5 {
 }
 
 .header {
-	border-bottom: 1px solid #f4f4f4;
+	padding-top: 1.5em;
+	/* border-bottom: 1px solid #f4f4f4; */
 }
+
+.about{
+	float: right;
+	text-decoration: none;
+}
+
+.about:hover {
+	color: green;
+}
+
 .landing-container {
 	height: 100vh;
 	display: flex;
@@ -45,9 +56,6 @@ h5 {
 	margin: 0;
 }
 
-.about{
-	float: right;
-}
 
 .logo {
 	max-width: 1.8em;
@@ -74,6 +82,8 @@ img {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1.5em;
+	padding-left: 3em;
+	padding-right: 3em;
 	/* grid-template-rows: 10em; */
 }
 
