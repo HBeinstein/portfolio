@@ -13,3 +13,13 @@ body {
     float: left;
     padding-right: 1em;
 }
+
+img {
+    max-width: 1.2em;
+}
+.meow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 10em; */
+}
+
