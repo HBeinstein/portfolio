@@ -13,7 +13,7 @@ _This is a prototype portfolio website that will later act as the landing page f
 * Clone the project from its GitHub repository.
 * Open in your code editor of choice.
 * Drag index.html file into your browser or double click it to view site.
-* You can view this project live on GitHub Pages at this link:.
+* You can view this project live on GitHub Pages at this link: https://hbeinstein.github.io/portfolio/.
 
 
 ## Known Bugs
