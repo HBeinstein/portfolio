@@ -1,0 +1,15 @@
+body {
+    background-color: #1c1b25;
+    color: white;
+}
+
+.landing-div {
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 1.2em;
+    float: left;
+    padding-right: 1em;
+}
