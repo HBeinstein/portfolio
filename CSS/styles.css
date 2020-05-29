@@ -1,25 +1,29 @@
 body {
-    background-color: #1c1b25;
-    color: white;
+	background-color: #1c1b25;
+	color: white;
 }
 
-.landing-div {
-    border: 1px solid blue;
-    height: 100vh;
+.landing-container {
+	border: 1px solid blue;
+	height: 100vh;
+}
+
+.about{
+	float: right;
 }
 
 .logo {
-    max-width: 1.2em;
-    float: left;
-    padding-right: 1em;
+	max-width: 1.2em;
+	float: left;
+	padding-right: 1em;
 }
 
 img {
-    max-width: 1.2em;
+	max-width: 1.2em;
 }
-.meow {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 10em; */
+.content-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-rows: 10em; */
 }
 
