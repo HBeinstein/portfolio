@@ -53,11 +53,11 @@ p {
 }
 
 .welcome-text {
-	font-size: 3.5em;
+	font-size: 3em;
 }
 
 .hi-there {
-	font-size: 2.5em;
+	font-size: 2em;
 	margin: 0;
 }
 
@@ -91,10 +91,13 @@ img {
 .content-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 1.5em;
+	grid-gap: 2.5em;
 	padding-left: 3em;
 	padding-right: 3em;
 	/* grid-template-rows: 10em; */
 }
 
+.content-container a {
+	font-weight: normal;
+}
 
