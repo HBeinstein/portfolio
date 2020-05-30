@@ -20,7 +20,11 @@ h1, h2, h3, h4, a, li, strong {
 h5 {
 	font-size: 2em;
 	font-family: 'montserrat', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
+}
+
+.project-content-container h5 {
+	text-decoration: underline;
 }
 
 p {
@@ -76,7 +80,6 @@ ul li {
 
 .welcome-text {
 	padding-top: 3em;
-
 }
 
 .arrow {
@@ -114,16 +117,8 @@ ul li {
 	grid-gap: 2.5em;
 }
 
-.project-content-container h5 {
-	text-decoration: underline;
-}
-
 .project-content-container a {
 	font-weight: normal;
-}
-
-.project-content-container p h5 {
-	margin: .4em;
 }
 
 .nav-header {
