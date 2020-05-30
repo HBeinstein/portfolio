@@ -19,7 +19,7 @@ h1, h2, h3, h4, a, li, strong {
 
 h5 {
 	font-size: 2em;
-	font-family: 'lora', sans-serif;
+	font-family: 'montserrat', sans-serif;
 	font-weight: 400;
 }
 
@@ -113,10 +113,6 @@ ul li {
 
 .project-content-container p h5 {
 	margin: .4em;
-}
-
-.project1 img {
-	min-width: 10em;
 }
 
 .nav-header {
