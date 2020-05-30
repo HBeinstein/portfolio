@@ -114,6 +114,10 @@ ul li {
 	grid-gap: 2.5em;
 }
 
+.project-content-container h5 {
+	text-decoration: underline;
+}
+
 .project-content-container a {
 	font-weight: normal;
 }
