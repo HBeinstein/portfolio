@@ -89,6 +89,13 @@ ul li {
 	align-content: flex-start;
 }
 
+.hannah {
+	max-width: 6em;
+	border-radius: 50%;
+	padding: 2em;
+	float: left;
+}
+
 .lower-content {
 	padding: 4em;
 }
